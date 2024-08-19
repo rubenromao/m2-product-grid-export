@@ -1,0 +1,21 @@
+{
+    "name": "rubenromao/m2-product-grid-export",
+    "description": "A Magento 2 module to export product grids to various formats.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.0",
+        "magento/framework": "^103.0",
+        "magento/module-ui": "*",
+        "magento/module-catalog": "*",
+        "magento/module-backend": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RubenRomao\\ProductGridExport\\": ""
+        }
+    }
+}
